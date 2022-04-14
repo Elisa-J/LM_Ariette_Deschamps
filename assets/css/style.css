@@ -1,0 +1,160 @@
+/* général 
+___________*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.bgPink{
+    background-color: #D1897B;
+}
+.bgWhite {
+    background-color: #FFFFFF;
+}
+.bgYellow {
+    background-color: #F6A844;
+}
+.bgBlue {
+    background-color: #3D858E;
+}
+.fontYellow {
+    color: #F6A844;
+}
+.fontPink {
+    color: #D1897B;
+}
+.fontBlue {
+    color: #3D858E;
+}
+.fontGrey {
+    color: #707070;
+}
+.fontWhite{
+    color: #FFFFFF;
+}
+.bold {
+    font-weight: bold;
+}     
+
+/* header
+___________ */
+
+
+/* bloc paysages
+_______________ */
+
+
+/* bloc portraits
+__________________ */
+
+
+/* bloc biography
+_________________ */
+
+
+/* bloc contact
+________________ */
+
+
+/* footer
+__________ */
+
+#contact{
+    position: absolute;
+    font-family: open sans; 
+}
+
+.background{
+    /* background-image: url("../img/landscape2.jpg"); */
+    opacity: 26%;
+    position: absolute;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fontYellow{
+    color:#F6A844;
+    /* margin-left: 50%; */
+    font-size: 50px;
+}
+
+#contact .fontYellow{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.formulaire{
+    /* margin-left: 50%; */
+    padding-top: 28px;
+    position: relative;
+}
+
+.space{
+    padding-top: 13px;
+}
+
+label{
+    font-size: 25px;
+    color: #707070
+}
+
+#name{
+    border-radius: 9px;
+    height: 40px;
+    width: 400px;
+    border-style:  none;
+    background-color: #fff;
+    
+}
+
+#text{
+    border-radius: 9px;
+    height: 150px;
+    width: 400px;
+    border-style:  none;
+    background-color: #fff;
+}
+
+
+button{ 
+    border-radius: 58px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 27px;
+    border-style:  none;
+    position: relative;
+    font-size: 1.5vh;
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.infos{
+    max-width: 20%;
+    max-height: 10%;
+    font-size: 26px;
+    color: #707070;
+    font-style: bold;
+    
+    
+
+
+}
+/* h2 form button{
+    margin-top: 40%;
+} */
